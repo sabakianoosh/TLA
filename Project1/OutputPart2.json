@@ -1,0 +1,20 @@
+{
+    "states": "{'q0q3','q5','q4q2q1'}",
+    "input_symbols": "{'0','1'}",
+    "transitions": {
+        "q0q3": {
+            "0": "q0q3",
+            "1": "q4q2q1"
+        },
+        "q5": {
+            "0": "q5",
+            "1": "q5"
+        },
+        "q4q2q1": {
+            "0": "q4q2q1",
+            "1": "q5"
+        }
+    },
+    "initial_state": "q0q3",
+    "final_states": "{'q4q2q1','q4q2q1','q4q2q1'}"
+}
